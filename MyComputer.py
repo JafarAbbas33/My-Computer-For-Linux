@@ -21,7 +21,7 @@ def extract_details_from_line(line):
 
 
 def binder(obj, path):
-    obj.bind('<Double-Button-1>', lambda event: os.system('pcmanfm "' + path + '"'))
+    obj.bind('<Double-Button-1>', lambda event: os.system('xdg-open "' + path + '"'))
 
 class GridHandler:
     row = 0
