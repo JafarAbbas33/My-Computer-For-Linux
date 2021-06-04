@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Exec=python3 "MyComputer.py"
+Name=My Computer
+Icon=drive_icon.png
